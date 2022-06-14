@@ -5,7 +5,7 @@ A personal project to sharpen my understanding of the Model-View-Controller arch
 The calculator is implemented as a Finite State Machine with a combination of MVC architecture and State Pattern. 
 
 * Architecture: 
-  - Model / View / Controller
+  -- Model / View / Controller
  
  * Design Patterns:
   - State Pattern
