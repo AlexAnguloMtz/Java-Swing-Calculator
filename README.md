@@ -29,7 +29,7 @@ The calculator is implemented as a Finite State Machine with a combination of MV
    - 'CalculatorState', base interface for the State pattern  
 
 * Controller: 
-   - Two implementations of the 'CalculatorState' interface, which handle the user input in different ways. 
+   - Two implementations of the 'CalculatorState' interface: 'BasalState' and 'ActiveOperationState'. They handle the user input in different ways. 
     Depending on the user inputs, the Calculator will enter one state or another. 
   
 * View: 
