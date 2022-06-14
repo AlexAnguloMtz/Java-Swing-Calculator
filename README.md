@@ -24,7 +24,8 @@ The calculator is implemented as a Finite State Machine with a combination of MV
    - Four Strategies that implement 'Operation', which are 'Add, Substract, Divide and Multiply'
    - 'Calculator', which holds a collection with all the implementations of 'Operation'. 
      The Calculator class actually does not perform calculations, it delegates to the corresponding Strategy class. 
-     This follows the Open-Closed principle, as functionality can be easily extended by adding a new Strategy class. 
+     This follows the Single Responsibility Principle, as every class has only one reason to change. It also follows
+     the Open-Closed principle, as functionality can be easily extended by adding a new Strategy class.
    - 'CalculatorState', base interface for the State pattern  
 
 * Controller: 
