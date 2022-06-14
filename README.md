@@ -8,9 +8,9 @@ The calculator is implemented as a Finite State Machine with a combination of MV
   - Model / View / Controller
  
  * Design Patterns:
-  - State Pattern
-  - Strategy Pattern
-  - The five SOLID principles
+    - State Pattern
+    - Strategy Pattern
+    - The five SOLID principles
  
  * I included Java 8 features whenever possible, such as lambdas and method references. 
 
